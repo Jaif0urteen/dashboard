@@ -1,14 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 /* h1{
     background-color: black;
 } */
 
 
+
+
 .link-active{
-    color: #012970;
+    color: white;
+    font-weight: 500;
+    background-color: #012970;
+    /* border-bottom: 5px solid transparent; */
+    border-bottom: 2px solid #d1e7dd;
+    border-radius: 10px;
+    padding: 5px 10px;
+    
+   
+    /* text-transform: uppercase; */
+  
+}
+.link-active:hover{
+    
+background-color: #012970;
+color: white;
+/* font-size: 14px; */
     /* border-bottom: 2px solid green; */
   
 }
+
+
 /* .collapse{
     transform: translate(0%);
 } */
+
+.roboto-font{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-col{
+    background-color: #012970;
+    color: white;
+}
+.btn-col:hover{
+    background-color: #012970;
+    color: white;
+    font-size: 18px;
+}
+
+.pagetitle-head{
+    display: flex;
+    align-items: center;
+}
+.pagetitle-head li {
+  font-size: x-large;
+  color: #012970;
+  
+}
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {FaTruckMoving , FaChalkboardTeacher} from 'react-icons/fa'
 
 
 export default function Sidebar({toggle}) {
@@ -11,25 +12,25 @@ export default function Sidebar({toggle}) {
 
       
         
-      <aside id="sidebar" class="sidebar " >
+      <aside id="sidebar" className="sidebar " >
       
       {/* <aside id="sidebar" class={open?"sidebar collapse":"sidebar"} > */}
       
-       <ul class="sidebar-nav" id="sidebar-nav">
+       <ul className="sidebar-nav" id="sidebar-nav">
 
-       <li class="nav-item">
-         <Link class="nav-link " to="/admin-basic-info">
-           <i class="bi bi-grid"></i>
+       <li className="nav-item">
+         <Link className="nav-link " to="/admin-basic-info">
+           <i><FaTruckMoving/></i>
            <span>Supplier Management</span>
          </Link>
        </li>
 
 
-       <li class="nav-item">
-         <a class="nav-link " href="index.html">
-           <i class="bi bi-grid"></i>
+       <li className="nav-item">
+         <Link className="nav-link " to='/admin-master-page'>
+           <i><FaChalkboardTeacher/></i>
            <span>Master Page</span>
-         </a>
+         </Link>
        </li>
        {/* 
        <!-- End Dashboard Nav --> */}

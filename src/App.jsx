@@ -8,6 +8,7 @@ import ContactDetails from './Component/ContactDetails'
 import AdditionalDetails from './Component/AdditionalDetails'
 
 import './assets/css/style1.css'
+import Master from './Component/Master.jsx'
 
 export default function App() {
 
@@ -24,6 +25,9 @@ export default function App() {
       <Route path='/admin-billing-details' element={<BillingDetails/>}/>
       <Route path='/admin-contact-details' element={<ContactDetails/>}/>
       <Route path='/admin-additional-details' element={<AdditionalDetails/>}/>
+
+
+      <Route path='/admin-master-page' element={<Master/>}/>
     </Routes>
     </BrowserRouter>
     
