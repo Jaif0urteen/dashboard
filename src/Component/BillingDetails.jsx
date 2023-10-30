@@ -57,11 +57,21 @@ export default function BillingDetails() {
                                                 </div>
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
-                                                        <label className="form-label poppins-font">GST Number</label>
+                                                        <label className="form-label poppins-font">GST IN Number</label>
                                                         <input type="text" className='form-control' />
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-12">
-                                                        <label className="form-label poppins-font">GST Document</label>
+                                                        <label className="form-label poppins-font">GST IN Document</label>
+                                                        <input type="text" className='form-control' />
+                                                    </div>
+                                                </div>
+                                                <div className="row mt-3">
+                                                    <div className="col-lg-6 col-md-6 col-12">
+                                                        <label className="form-label poppins-font">PAN</label>
+                                                        <input type="text" className='form-control' />
+                                                    </div>
+                                                    <div className="col-lg-6 col-md-6 col-12">
+                                                        <label className="form-label poppins-font">PAN Document</label>
                                                         <input type="text" className='form-control' />
                                                     </div>
                                                 </div>
