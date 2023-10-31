@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { FaTruckMoving, FaChalkboardTeacher } from 'react-icons/fa'
 
 
@@ -21,10 +21,10 @@ export default function Sidebar({ toggle }) {
         <ul className="sidebar-nav" id="sidebar-nav">
 
           <li className="nav-item">
-            <Link className="nav-link collapsed" to="/admin-basic-info">
+            <NavLink className="nav-link collapsed  "to="/admin-basic-info">
               <i><FaTruckMoving /></i>
               <span>Supplier Management</span>
-            </Link>
+            </NavLink>
           </li>
 
          
@@ -32,39 +32,39 @@ export default function Sidebar({ toggle }) {
           <li class="nav-item">
             <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
               <i><FaChalkboardTeacher /></i>
-              <span>Master Page</span>
+              <span>Master's</span>
               <i class="bi bi-chevron-down ms-auto"></i>
             </a>
             <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
               <li>
-                <Link to='/admin-master-gst-page'>
+                <NavLink to='/admin-master-gst-page'>
                   <i class="bi bi-circle"></i><span>GST (%)</span>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to='/admin-master-uom-page'>
+                <NavLink to='/admin-master-uom-page'>
                   <i class="bi bi-circle"></i><span>UOM</span>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to='/admin-master-business-type-page'>
+                <NavLink to='/admin-master-business-type-page'>
                   <i class="bi bi-circle"></i><span>Business Type</span>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to='/admin-master-pincode-page'>
+                <NavLink to='/admin-master-pincode-page'>
                   <i class="bi bi-circle"></i><span>Pincode</span>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to='/admin-master-brand-name-page'>
+                <NavLink to='/admin-master-brand-name-page'>
                   <i class="bi bi-circle"></i><span>Brand Name</span>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to='/admin-master-type-of-company-page'>
+                <NavLink to='/admin-master-type-of-company-page'>
                   <i class="bi bi-circle"></i><span>Type of Company</span>
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </li>

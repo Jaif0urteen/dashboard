@@ -29,7 +29,7 @@ export default function BillingDetails() {
                     <div className="row">
 
                         {/* <!-- Left side columns --> */}
-                        <div className="col-lg-10">
+                        <div className="col-lg-12">
                             <div className="row">
 
                                 {/* <!-- Sales Card --> */}
@@ -40,49 +40,49 @@ export default function BillingDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-3 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Pincode</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='Pincode'/>
                                                     </div>
                                                     <div className="col-lg-3 col-md-6 col-12">
                                                         <label className="form-label poppins-font">City</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='City'/>
                                                     </div>
                                                     <div className="col-lg-3 col-md-6 col-12">
                                                         <label className="form-label poppins-font">State</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='State'/>
                                                     </div>
                                                     <div className="col-lg-3 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Country</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='Country'/>
                                                     </div>
                                                 </div>
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">GST IN Number</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='GST IN Number'/>
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">GST IN Document</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='GST IN Document'/>
                                                     </div>
                                                 </div>
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">PAN</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='PAN'/>
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">PAN Document</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='PAN Document'/>
                                                     </div>
                                                 </div>
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">CIN</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='CIN'/>
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">CIN Number</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='CIN Number'/>
                                                     </div>
                                                 </div>
                                             </div>

@@ -26,7 +26,7 @@ export default function AdditionalDetails() {
                     <div className="row">
 
                         {/* <!-- Left side columns --> */}
-                        <div className="col-lg-10">
+                        <div className="col-lg-12">
                             <div className="row">
 
                                 {/* <!-- Sales Card --> */}
@@ -38,7 +38,7 @@ export default function AdditionalDetails() {
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Brand Name</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='Brand Name'/>
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Incorporation Date</label>
@@ -48,7 +48,7 @@ export default function AdditionalDetails() {
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Type of Company</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='Type of Company'/>
                                                     </div>
                                                 </div>
                                                

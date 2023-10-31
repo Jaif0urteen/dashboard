@@ -26,7 +26,7 @@ export default function ContactDetails() {
                 <div className="row">
 
                     {/* <!-- Left side columns --> */}
-                    <div className="col-lg-10">
+                    <div className="col-lg-12">
                         <div className="row">
 
                             {/* <!-- Sales Card --> */}
@@ -39,27 +39,27 @@ export default function ContactDetails() {
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Name</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='Name'/>
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">E-mail</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='E-mail' />
                                                     </div>
                                                 </div>
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Mobile</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='Mobile'/>
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Whatsapp</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='Whatsapp'/>
                                                     </div>
                                                 </div>
                                                 <div className="row mt-3">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <label className="form-label poppins-font">Designation</label>
-                                                        <input type="text" className='form-control' />
+                                                        <input type="text" className='form-control' placeholder='Designation'/>
                                                     </div>
                                                 </div>
                                             </div>
