@@ -58,8 +58,8 @@ export default function MasterBrandname() {
                             <td>Jacob</td>
                             <td>Thornton</td>
                             <td>
-                              <a class="edit" title="Edit" data-toggle="tooltip"><i ><BiSolidEdit color='green' size={23} /></i></a>
-                              <a class="delete" title="Delete" data-toggle="tooltip"><i><MdDeleteOutline color='red' size={23} /></i></a>
+                              <a class="edit"  data-toggle="tooltip"><i ><BiSolidEdit color='green' size={23} /></i></a>
+                              <a class="delete"  data-toggle="tooltip"><i><MdDeleteOutline color='red' size={23} /></i></a>
                             </td>
                           </tr>
 

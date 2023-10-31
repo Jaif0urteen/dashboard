@@ -69,8 +69,8 @@ export default function MasterPincode() {
                             <td>Uttar Pradesh</td>
                             <td>Uttar Pradesh  </td>
                             <td>
-                              <a class="edit edit-col rounded" title="Edit" data-toggle="tooltip"><i ><BiSolidEdit   size={23} /></i></a>
-                              <a class="delete delete-col rounded" title="Delete" data-toggle="tooltip"><i><MdDeleteOutline  size={23} /></i></a>
+                              <a class="edit edit-col rounded"  data-toggle="tooltip"><i ><BiSolidEdit   size={23} /></i></a>
+                              <a class="delete delete-col rounded" data-toggle="tooltip"><i><MdDeleteOutline  size={23} /></i></a>
                             </td>
                           
                           </tr>
