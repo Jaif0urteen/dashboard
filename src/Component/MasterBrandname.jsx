@@ -16,7 +16,7 @@ export default function MasterBrandname() {
                   <div className="pagetitle ">
                     <div className="pagetitle-head d-flex justify-content-between">
                       <h1 className='pt-1 oswald-font pt-2'>Brand Name</h1>
-                      <button className="btn btn-col me-2" type="button"><FiSave size={18} /> Save</button>
+                      <button className="btn btn-col me-2" type="button"><FiSave size={18} /></button>
                     </div>
                   </div>
                   <div className="card info-card sales-card">
