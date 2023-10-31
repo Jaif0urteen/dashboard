@@ -64,3 +64,35 @@ color: white;
   color: #012970;
   
 }
+.edit-col{
+    background-color: green;
+    color: white;
+   
+}
+.edit-col:hover{
+    background-color: white;
+    color: green;
+   
+}
+
+.delete-col{
+    margin-left: 3px;
+    background-color: red;
+    color: white;
+    
+}
+.delete-col:hover{
+    background-color: white;
+    color: red;
+  
+}
+.save-col{
+   
+    background-color: #012970;
+    color: white;
+    
+}
+.save-col:hover{
+    background-color: #e67e22;
+    color: #012970;
+}

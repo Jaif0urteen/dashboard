@@ -16,7 +16,7 @@ export default function MasterPincode() {
                   <div className="pagetitle ">
                     <div className="pagetitle-head d-flex justify-content-between">
                       <h1 className='pt-1 oswald-font pt-2'>Pincode</h1>
-                      <button className="btn btn-col me-2" type="button"><FiSave size={18} /></button>
+                      <button className="btn save-col me-2" type="button"><FiSave size={18} /></button>
                     </div>
                   </div>
                   <div className="card info-card sales-card">
@@ -69,8 +69,8 @@ export default function MasterPincode() {
                             <td>Uttar Pradesh</td>
                             <td>Uttar Pradesh  </td>
                             <td>
-                              <a class="edit" title="Edit" data-toggle="tooltip"><i ><BiSolidEdit color='green' size={23} /></i></a>
-                              <a class="delete" title="Delete" data-toggle="tooltip"><i><MdDeleteOutline color='red' size={23} /></i></a>
+                              <a class="edit edit-col rounded" title="Edit" data-toggle="tooltip"><i ><BiSolidEdit   size={23} /></i></a>
+                              <a class="delete delete-col rounded" title="Delete" data-toggle="tooltip"><i><MdDeleteOutline  size={23} /></i></a>
                             </td>
                           
                           </tr>
