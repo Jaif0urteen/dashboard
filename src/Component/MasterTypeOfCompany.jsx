@@ -16,7 +16,7 @@ export default function MasterTypeOfCompany() {
                   <div className="pagetitle ">
                     <div className="pagetitle-head d-flex justify-content-between">
                       <h1 className='pt-1 oswald-font pt-2'>Type of Company</h1>
-                      <button className="btn btn-col me-2" type="button"><FiSave size={18} /></button>
+                      <button className="btn btn-col me-2 save-col" type="button"><FiSave size={18} /></button>
                     </div>
                   </div>
                   <div className="card info-card sales-card">

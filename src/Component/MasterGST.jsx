@@ -27,7 +27,7 @@ export default function MasterGST() {
                         </nav>
                       </div>
 
-                      <button className="btn btn-col me-2" type="button"><FiSave size={18} /></button>
+                      <button className="btn btn-col me-2 save-col" type="button"><FiSave size={18} /></button>
                     </div>
                   </div>
                   <div className="card info-card sales-card">
@@ -59,20 +59,12 @@ export default function MasterGST() {
                             <td>Mark</td>
                             <td>Otto</td>
                             <td>
-                              <a class="edit" title="Edit" data-toggle="tooltip"><i ><BiSolidEdit color='green' size={23} /></i></a>
-                              <a class="delete" title="Delete" data-toggle="tooltip"><i><MdDeleteOutline color='red' size={23} /></i></a>
+                              <a class="edit edit-col rounded" title="Edit" data-toggle="tooltip"><i ><BiSolidEdit  size={23} /></i></a>
+                              <a class="delete delete-col rounded" title="Delete" data-toggle="tooltip"><i><MdDeleteOutline  size={23} /></i></a>
                             </td>
 
                           </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>
-                              <a class="edit" title="Edit" data-toggle="tooltip"><i ><BiSolidEdit color='green' size={23} /></i></a>
-                              <a class="delete" title="Delete" data-toggle="tooltip"><i><MdDeleteOutline color='red' size={23} /></i></a>
-                            </td>
-                          </tr>
+                         
 
                         </tbody>
                       </table>

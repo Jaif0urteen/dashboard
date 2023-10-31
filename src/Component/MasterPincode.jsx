@@ -16,7 +16,7 @@ export default function MasterPincode() {
                   <div className="pagetitle ">
                     <div className="pagetitle-head d-flex justify-content-between">
                       <h1 className='pt-1 oswald-font pt-2'>Pincode</h1>
-                      <button className="btn save-col me-2" type="button"><FiSave size={18} /></button>
+                      <button className="btn save-col me-2 " type="button"><FiSave size={18} /></button>
                     </div>
                   </div>
                   <div className="card info-card sales-card">
