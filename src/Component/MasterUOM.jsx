@@ -17,12 +17,6 @@ export default function MasterUOM() {
                     <div className="pagetitle-head d-flex justify-content-between">
                       <div className="head-with-breadcrumb d-flex ">
                         <h1 className='pt-1 oswald-font pt-2'>UOM</h1>
-                        <nav aria-label="breadcrumb">
-                          <ol className="breadcrumb fs-6 mt-3 ms-4">
-                            <a className="breadcrumb-item" style={{ fontSize: "15px" }} >Master's</a>
-                            <a className="breadcrumb-item active" style={{ fontSize: "15px" }} >UMO</a>
-                          </ol>
-                        </nav>
                       </div>
                       <button className="btn btn-col me-2 save-col" type="button"><FiSave size={18} /></button>
                     </div>

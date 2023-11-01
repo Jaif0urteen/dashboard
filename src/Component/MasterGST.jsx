@@ -14,18 +14,16 @@ export default function MasterGST() {
             <div className="col-lg-12">
               <div className="row">
                 <div className="col-xxl-4 col-md-12">
-                  <div className="pagetitle ">
+                  <div className="pagetitle">
                     <div className="pagetitle-head d-flex justify-content-between">
-                      <div className="head-with-breadcrumb d-flex ">
-                        <h1 className=' oswald-font pt-2'>GST (%)</h1>
-                        <nav aria-label="breadcrumb">
-                          <ol className="breadcrumb fs-6 mt-3 ms-4">
-                            <a className="breadcrumb-item" style={{ fontSize: "15px" }} >Master's</a>
-                            <a className="breadcrumb-item active" style={{ fontSize: "15px" }} >GST(%)</a>
-                          </ol>
-                        </nav>
+                      <div className="head-with-breadcrumb d-flex align-items-baseline">
+                        <div className="flex-head">
+                          <h1 className=' oswald-font pt-2'>GST (%)</h1>
+                        </div>
                       </div>
-                      <button className="btn btn-col me-2 save-col" type="button"><FiSave size={18} /></button>
+                      <div className="savebtn-master">
+                        <button className="btn btn-col me-2 save-col" type="button"><FiSave /></button>
+                      </div>
                     </div>
                   </div>
                   <div className="card info-card sales-card mb-3">

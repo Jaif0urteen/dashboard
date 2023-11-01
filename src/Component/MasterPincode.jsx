@@ -7,7 +7,6 @@ export default function MasterPincode() {
   return (
     <>
       <main id="main" className="main poppins-font">
-
         <section className="section dashboard ps-3">
           <div className="row">
             <div className="col-lg-12">
@@ -17,12 +16,7 @@ export default function MasterPincode() {
                     <div className="pagetitle-head d-flex justify-content-between">
                     <div className="head-with-breadcrumb d-flex ">
                         <h1 className='pt-1 oswald-font pt-2'>Pincode</h1>
-                        <nav aria-label="breadcrumb">
-                          <ol className="breadcrumb fs-6 mt-3 ms-4">
-                            <a className="breadcrumb-item" style={{ fontSize: "15px" }} >Master's</a>
-                            <a className="breadcrumb-item active" style={{ fontSize: "15px" }} >Pincode</a>
-                          </ol>
-                        </nav>
+                        
                       </div>
                       <button className="btn btn-col me-2 save-col" type="button"><FiSave size={18} /></button>
                     </div>
@@ -88,19 +82,12 @@ export default function MasterPincode() {
                               <a className="edit edit-col rounded"  data-toggle="tooltip"><i ><BiSolidEdit   size={23} /></i></a>
                               <a className="delete delete-col rounded" data-toggle="tooltip"><i><MdDeleteOutline  size={23} /></i></a>
                             </td>
-                          
                           </tr>
-                         
-
                         </tbody>
                       </table>
-
-
                     </div>
-
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
