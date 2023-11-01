@@ -15,28 +15,44 @@ export default function MasterPincode() {
                 <div className="col-xxl-4 col-md-12">
                   <div className="pagetitle ">
                     <div className="pagetitle-head d-flex justify-content-between">
-                      <h1 className='pt-1 oswald-font pt-2'>Pincode</h1>
-                      <button className="btn save-col me-2 " type="button"><FiSave size={18} /></button>
+                    <div className="head-with-breadcrumb d-flex ">
+                        <h1 className='pt-1 oswald-font pt-2'>Pincode</h1>
+                        <nav aria-label="breadcrumb">
+                          <ol className="breadcrumb fs-6 mt-3 ms-4">
+                            <a className="breadcrumb-item" style={{ fontSize: "15px" }} >Master's</a>
+                            <a className="breadcrumb-item active" style={{ fontSize: "15px" }} >Pincode</a>
+                          </ol>
+                        </nav>
+                      </div>
+                      <button className="btn btn-col me-2 save-col" type="button"><FiSave size={18} /></button>
                     </div>
                   </div>
                   <div className="card info-card sales-card">
                     <div className="card-body col-md-12 col-sm-6">
                       <div className="row">
-                        <div className="row mt-3">
-                          <div className="col-lg-4 col-md-6 col-12">
+                        <div className="row mt-3 d-flex justify-content-between">
+                          <div className="col-lg-2 col-md-6 col-12">
                             <label className="form-label poppins-font">Pincode</label>
-                            <input type="text" className='form-control' placeholder='Name' />
+                            <input type="text" className='form-control' placeholder='Pincode' />
                           </div>
-                          <div className="col-lg-4 col-md-6 col-12">
+                          <div className="col-lg-2 col-md-6 col-12">
                             <label className="form-label poppins-font">City</label>
                             <input type="text" className='form-control' placeholder='City' />
                           </div>
-                          <div className="col-lg-4 col-md-6 col-12">
+                          <div className="col-lg-2 col-md-6 col-12">
                             <label className="form-label poppins-font">State</label>
                             <input type="text" className='form-control' placeholder='State' />
                           </div>
+                          <div className="col-lg-2 col-md-6 col-12">
+                            <label className="form-label poppins-font">Country</label>
+                            <input type="text" className='form-control' placeholder='Country' />
+                          </div>
+                          <div className="col-lg-2 col-md-6 col-12">
+                            <label className="form-label poppins-font">Status</label>
+                            <input type="text" className='form-control' placeholder='Status' />
+                          </div>
                         </div>
-                        <div className="row mt-3">
+                        {/* <div className="row mt-3">
                           <div className="col-lg-4 col-md-6 col-12">
                             <label className="form-label poppins-font">Country</label>
                             <input type="text" className='form-control' placeholder='Country' />
@@ -46,9 +62,9 @@ export default function MasterPincode() {
                             <input type="text" className='form-control' placeholder='Status' />
                           </div>
                           
-                        </div>
+                        </div> */}
                       </div>
-                      <table class="table mt-4">
+                      <table className="table mt-4">
                         <thead>
                           <tr>
                             <th scope="col">#</th>
@@ -69,8 +85,8 @@ export default function MasterPincode() {
                             <td>Uttar Pradesh</td>
                             <td>Uttar Pradesh  </td>
                             <td>
-                              <a class="edit edit-col rounded"  data-toggle="tooltip"><i ><BiSolidEdit   size={23} /></i></a>
-                              <a class="delete delete-col rounded" data-toggle="tooltip"><i><MdDeleteOutline  size={23} /></i></a>
+                              <a className="edit edit-col rounded"  data-toggle="tooltip"><i ><BiSolidEdit   size={23} /></i></a>
+                              <a className="delete delete-col rounded" data-toggle="tooltip"><i><MdDeleteOutline  size={23} /></i></a>
                             </td>
                           
                           </tr>

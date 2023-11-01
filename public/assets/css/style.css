@@ -43,14 +43,14 @@ h6 {
 --------------------------------------------------------------*/
 #main {
   margin-top: 60px;
-  padding: 20px 30px;
+  padding: 20px 13px;
   padding-right: 10px;
   transition: all 0.3s;
 }
 
 @media (max-width: 1199px) {
   #main {
-    padding: 20px;
+    padding: 20px ;
   }
 }
 
@@ -634,7 +634,7 @@ h6 {
 
   #main,
   #footer {
-    margin-left: 265px;
+    margin-left: 280px;
   }
 }
 

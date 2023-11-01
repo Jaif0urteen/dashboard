@@ -15,7 +15,15 @@ export default function MasterBrandname() {
                 <div className="col-xxl-4 col-md-12">
                   <div className="pagetitle ">
                     <div className="pagetitle-head d-flex justify-content-between">
-                      <h1 className='pt-1 oswald-font pt-2'>Brand Name</h1>
+                    <div className="head-with-breadcrumb d-flex ">
+                        <h1 className='pt-1 oswald-font pt-2'>Brand Name</h1>
+                        <nav aria-label="breadcrumb">
+                          <ol className="breadcrumb fs-6 mt-3 ms-4">
+                            <a className="breadcrumb-item" style={{ fontSize: "15px" }} >Master's</a>
+                            <a className="breadcrumb-item active" style={{ fontSize: "15px" }} >Brand Name</a>
+                          </ol>
+                        </nav>
+                      </div>
                       <button className="btn btn-col me-2 save-col" type="button"><FiSave size={18} /></button>
                     </div>
                   </div>
@@ -33,7 +41,7 @@ export default function MasterBrandname() {
                           </div>
                         </div>
                       </div>
-                      <table class="table mt-4">
+                      <table className="table mt-4">
                         <thead>
                           <tr>
                             <th scope="col">#</th>
@@ -44,22 +52,12 @@ export default function MasterBrandname() {
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>
-                              <a class="edit" title="Edit" data-toggle="tooltip"><i ><BiSolidEdit color='green' size={23} /></i></a>
-                              <a class="delete" title="Delete" data-toggle="tooltip"><i><MdDeleteOutline color='red' size={23} /></i></a>
-                            </td>
-
-                          </tr>
-                          <tr>
                             <th scope="row">2</th>
                             <td>Jacob</td>
                             <td>Thornton</td>
                             <td>
-                              <a class="edit"  data-toggle="tooltip"><i ><BiSolidEdit color='green' size={23} /></i></a>
-                              <a class="delete"  data-toggle="tooltip"><i><MdDeleteOutline color='red' size={23} /></i></a>
+                              <a className="edit edit-col rounded"  data-toggle="tooltip"><i ><BiSolidEdit  size={23} /></i></a>
+                              <a className="delete delete-col rounded"  data-toggle="tooltip"><i><MdDeleteOutline size={23} /></i></a>
                             </td>
                           </tr>
 
