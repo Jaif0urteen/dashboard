@@ -40,8 +40,8 @@ export default function MasterGST() {
                           </div>
                         </div>
                       </div>
-                      <table className="table mt-4">
-                        <thead>
+                      <table className="table mt-4 ">
+                        <thead className='table-condensed'>
                           <tr>
                             <th scope="col">#</th>
                             <th scope="col">Name</th>

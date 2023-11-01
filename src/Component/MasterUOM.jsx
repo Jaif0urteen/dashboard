@@ -36,7 +36,7 @@ export default function MasterUOM() {
                         </div>
                       </div>
                       <table className="table mt-4">
-                        <thead>
+                        <thead className='table-condensed'>
                           <tr>
                             <th scope="col">#</th>
                             <th scope="col">Name</th>
